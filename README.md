@@ -1,2 +1,19 @@
 # vue-docker-volume
-vue cli based project that maps docker volume. useful for developing on windows to keep stuff inside linux
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
