@@ -1,6 +1,13 @@
 # vue-docker-volume
 
 ## Project setup
+
+Instructions on working with docker are written in the top of the Docker file.
+You basically have to build the image being in the root( the folder that has all the stuff inside, like node_modules, src etc. ) folder of the solution.
+Then you start the container in one of the modes provided. For details see Dockerfile.
+
+To run the solution locally execute the commands below:
+
 ```
 npm install
 ```
@@ -14,6 +21,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
